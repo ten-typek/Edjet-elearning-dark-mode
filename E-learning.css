@@ -1,0 +1,208 @@
+/* ==UserStyle==
+@name           Dark Theme for Edjet E-learning
+@namespace      https://github.com/ten-typek
+@version        1.0.0
+@description    Brings dark theme to e-learning systems by Edjet.
+@author         Ten týpek
+==/UserStyle== */
+
+@-moz-document domain("example.com") {
+	
+    /*UPROSTŘED*/
+
+#wrapper {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+/*KOLEM*/
+body {
+    
+    background-color: #000000;
+}
+
+/*SAMOTNÉ ÚPRAVY*/
+
+#head, tr, td, th {
+    
+    background-color: #0f0f0f;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+    color: white;
+}
+
+.wpUserIdentity__data {
+    
+    background-color: #0f0f0f;
+    color: white;
+}
+
+/*ZMIZENÍ LOGA, ÚPRAVY HEADER*/
+.wpLogo {
+    
+    visibility: hidden;
+	
+}
+
+.wpUserIdentity__logout {
+    
+    background-color: #0f0f0f;
+    color: white;
+}
+
+a:hover {
+	
+	text-decoration: underline;
+	color:white;
+	transition: 700ms;
+	
+}
+
+
+/*OTÁZKY LICHÝ*/
+
+.wpTestAttemptReview__answer:nth-of-type(odd), .wpTestPlayer__answer:nth-of-type(odd) {
+	  background-color: #151515;
+    	color: white;
+		
+	
+}
+
+/*OTÁZKY SUDÝ*/
+
+.wpTestAttemptReview__answer:nth-of-type(even), .wpTestPlayer__answer:nth-of-type(even) {
+	  background-color: #151515;
+    	color: white;
+		
+	
+}
+
+.wpDataTable th {  
+	  background-color: #0f0f0f;
+    color: white;
+	
+	
+}
+
+.btn--default {
+	background-color: #0f0f0f;
+    color: white;
+	
+}
+
+
+.wpCoursePlayer__bottomBar {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+.wpMessage--notice, .wpMessage--confirm {
+    background-color: #129b23;
+    color: white;
+	text-align: center;
+}
+
+.fa-info-circle:before {
+	
+	visibility: hidden;
+}
+
+.wpCourseNavigation__popup { 
+	background-color: #0f0f0f;
+    color: white;
+}
+
+.wpCourseNavigation__tree a, .wpCourseNavigation__tree span {
+	
+	color: white;
+}
+
+.wpTestInfo__bottomBar { 
+	background-color: #0f0f0f;
+    color: white;
+
+}
+
+.wpUserIdentity__iconLink { 
+	background-color: #0f0f0f;
+    color: white;
+}
+
+a:after {
+	
+	color:white;
+	animation-duration: 1000ms;
+}
+
+/*ZAŠEDNUTÍ PRO MĚ NEPODSTATNÝCH INFORMACÍ (učitelé, platnost)*/
+
+.wpCoursesList__validity, .wpCoursesList__trainers, .wpCourseInfo__validity, .wpCourseInfo__trainers, .wpCoursePlayer__validity {
+	
+	color: grey;
+}
+
+.wpFooterBasic, .courseStatus {
+	
+	visibility: hidden;
+}
+
+
+.icon__label {
+	
+	color: white;
+}
+
+.form-control {
+	
+	background-color: #0f0f0f;
+}
+
+
+.wpCourseInfo__topSection, .wpCoursesListItem {
+	
+	border-color: grey;
+}
+
+.wpHorizontalMenu {
+    background-color: #565656;
+
+}
+
+::selection {
+	
+	background-color: #004dd2;
+	color: white;
+}
+
+
+.wpLoginForm {
+	
+	background-color: black; 
+	color: white;
+	margin: -19px -20px -109px -598px;
+	position: relative;
+	
+}
+
+.loginPage {
+	
+	background-image: none;
+}
+
+.loginHead {
+	
+	background-color: black;
+}
+
+/*
+#i_appLanguageSwitcher {
+	
+	visibility: hidden;
+}*/
+
+	
+	
+}
